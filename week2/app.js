@@ -24,7 +24,8 @@ function ShoppingListService(){
     var service = this;
     var itemsToBuy = 
         [{quantity : '10', name :'pineapple'}, {quantity : '2', name : 'apple'},
-          {quantity : '5', name :'chocolate'}, {quantity : '3', name : 'tomate'}];
+          {quantity : '5', name :'chocolate'}, {quantity : '3', name : 'tomate'},
+          {quantity : '5', name :'peanut bags'}];
     var itemsAlreadyBought = [];
     service.getItemsToBuy = function(){
         return itemsToBuy;
